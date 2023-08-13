@@ -7,7 +7,7 @@ import { PiSquaresFour,PiShieldCheckeredFill } from 'react-icons/pi'
 import { DiUikit } from 'react-icons/di'
 import { useState } from 'react';
 const NavBar = () => {
-	const [data, setData] = useState(true)
+	const [data, setData] = useState(false)
 	return (
 		<div className='nav'>
 			<div className='nav_logo'>
