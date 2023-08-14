@@ -7,9 +7,11 @@ import { CiFlag1, CiFacebook } from 'react-icons/ci';
 import { IoMdCall } from 'react-icons/io';
 import { TiSocialGooglePlusCircular, TiSocialTwitterCircular } from 'react-icons/ti';
 import { FaInstagram } from 'react-icons/fa';
-// import {TiSocialTwitterCircular} from 'react-icons/fa';
+
 
 const AllCards = () => {
+
+	/*here we made array for card*/
 	const data = [
 		{
 			id: 1,
@@ -30,6 +32,8 @@ const AllCards = () => {
 	]
 	return (
 		<div className='allCards'>
+
+			{/* it is a for card part */}
 			<div className='card_box'>
 
 				{
@@ -42,6 +46,8 @@ const AllCards = () => {
 
 
 			</div>
+
+			{/* it is for about part */}
 			<div className='about'>
 				<div className='about_card'>
 
@@ -88,12 +94,13 @@ const AllCards = () => {
 						</div>
 					</div>
 
+					{/* for social media icon */}
 					<div className='socail_media'>
 						<div className='media_icon'>
-							<CiFacebook className='social_icons'/>
-							<TiSocialGooglePlusCircular className='social_icons'/>
-							<FaInstagram className='social_icons'/>
-							<TiSocialTwitterCircular className='social_icons'/>
+							<CiFacebook className='social_icons' />
+							<TiSocialGooglePlusCircular className='social_icons' />
+							<FaInstagram className='social_icons' />
+							<TiSocialTwitterCircular className='social_icons' />
 						</div>
 					</div>
 				</div>
